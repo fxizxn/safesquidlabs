@@ -113,11 +113,10 @@ sudo umount ~/iso_mount
 rmdir ~/iso_mount
 ```
 ## Results
-![Image 1](image%201.png)
-![Image 2](image%202.png)
-![Image 3](image%203.png)
-![Image 4](image%204.png)
-![Image 5](image%205.png)
-
+![Image 1](Image%201.png)
+![Image 2](Image%202.png)
+![Image 3](Image%203.png)
+![Image 4](Image%204.png)
+![Image 5](Image%205.png)
 
 ---
