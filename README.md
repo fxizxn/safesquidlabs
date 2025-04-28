@@ -58,5 +58,3 @@ sudo ./security_audit_hardening.sh
 - Ensure security groups/firewalls allow SSH after modifying firewall rules.
 
 ---
-
-Happy Monitoring & Hardening 🚀
