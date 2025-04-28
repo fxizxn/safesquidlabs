@@ -112,5 +112,12 @@ sudo ./security_audit_hardening.sh
 sudo umount ~/iso_mount
 rmdir ~/iso_mount
 ```
+## Results
+![Image 1](image%201.png)
+![Image 2](image%201.png)
+![Image 3](image%201.png)
+![Image 4](image%201.png)
+![Image 5](image%201.png)
+
 
 ---
