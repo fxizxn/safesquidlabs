@@ -58,3 +58,73 @@ sudo ./security_audit_hardening.sh
 - Ensure security groups/firewalls allow SSH after modifying firewall rules.
 
 ---
+# System Monitor and Security Audit Scripts with ISO
+
+## 📂 Files Included
+- `system_monitor.sh`
+- `security_audit_hardening.sh`
+- `safesquid.iso`
+
+---
+
+# 🚀 Using the `.iso` File + Scripts Inside Ubuntu Server (EC2)
+
+## 1. Clone GitHub Repository
+```bash
+git clone https://github.com/yourusername/yourrepo.git
+cd yourrepo
+```
+
+## 2. Install Required Packages
+```bash
+sudo apt update
+sudo apt install -y sysstat net-tools ufw qemu-utils
+```
+
+## 3. Mount the ISO
+```bash
+mkdir ~/iso_mount
+sudo mount -o loop safesquid.iso ~/iso_mount
+```
+
+## 4. (Optional) Copy Files
+```bash
+cp -r ~/iso_mount/* ~/my_iso_files/
+```
+
+## 5. Make Scripts Executable
+```bash
+chmod +x system_monitor.sh security_audit_hardening.sh
+```
+
+## 6. Run Scripts
+- Monitor:
+```bash
+./system_monitor.sh
+```
+- Security Audit:
+```bash
+sudo ./security_audit_hardening.sh
+```
+
+## 7. Unmount ISO
+```bash
+sudo umount ~/iso_mount
+rmdir ~/iso_mount
+```
+
+---
+
+# 📋 Quick Commands Summary
+
+| Step | Command |
+|:-----|:--------|
+| Clone Repo | `git clone https://github.com/yourusername/yourrepo.git` |
+| Install Packages | `sudo apt install sysstat net-tools ufw qemu-utils` |
+| Mount ISO | `sudo mount -o loop safesquid.iso ~/iso_mount` |
+| Access ISO | `ls ~/iso_mount/` |
+| Run Monitor | `./system_monitor.sh` |
+| Run Audit | `sudo ./security_audit_hardening.sh` |
+| Unmount ISO | `sudo umount ~/iso_mount` |
+
+---
