@@ -114,17 +114,3 @@ rmdir ~/iso_mount
 ```
 
 ---
-
-# 📋 Quick Commands Summary
-
-| Step | Command |
-|:-----|:--------|
-| Clone Repo | `git clone https://github.com/yourusername/yourrepo.git` |
-| Install Packages | `sudo apt install sysstat net-tools ufw qemu-utils` |
-| Mount ISO | `sudo mount -o loop safesquid.iso ~/iso_mount` |
-| Access ISO | `ls ~/iso_mount/` |
-| Run Monitor | `./system_monitor.sh` |
-| Run Audit | `sudo ./security_audit_hardening.sh` |
-| Unmount ISO | `sudo umount ~/iso_mount` |
-
----
